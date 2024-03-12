@@ -23,7 +23,7 @@ const statusMessages = ["Listening to Infinity","Helping our members"];
 
 
 let currentIndex = 0;
-const channelId = '1216806104466587808';
+const channelId = '';
 
 async function login() {
   try {
