@@ -15,15 +15,15 @@ app.get('/', (req, res) => {
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Made By RTX, Altered by MxsonnRBLX, Used for Twilight designs!`);
+  console.log(`🔗 Made By RTX, Altered by MxsonnRBLX, Used for Infinity designs!`);
 });
 
 
-const statusMessages = ["Listening to Twilight","Helping our members"];
+const statusMessages = ["Listening to Infinity","Helping our members"];
 
 
 let currentIndex = 0;
-const channelId = '';
+const channelId = '1216805069991710752';
 
 async function login() {
   try {
