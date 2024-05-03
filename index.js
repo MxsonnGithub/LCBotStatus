@@ -15,11 +15,11 @@ app.get('/', (req, res) => {
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Made By RTX, Altered by MxsonnRBLX, Used for Infinity designs!`);
+  console.log(`🔗 Made By RTX, Altered by MxsonnRBLX, Used for Limitless customs.`);
 });
 
 
-const statusMessages = ["Listening to Infinity","Helping our members"];
+const statusMessages = ["Coming soon!","No sale active.","Limitless Customs!"];
 
 
 let currentIndex = 0;
@@ -60,7 +60,7 @@ function updateStatusAndSendMessages() {
 
 client.once('ready', () => {
   console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot is ready as ${client.user.tag}`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨Usage is for Twilight Designs.`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨Usage is for Limitless customs!`);
   console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️Made by MxsonnRBLX`);
   updateStatusAndSendMessages();
 
